@@ -1,4 +1,3 @@
-class_name ModeManager
 extends Node
 
 # Autoload: ModeManager

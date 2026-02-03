@@ -1,6 +1,8 @@
 class_name BaseManager
 extends Node
 
+var _logger_name: String = "BaseManager"
+
 # Interface for all system managers
 
 func _ready() -> void:

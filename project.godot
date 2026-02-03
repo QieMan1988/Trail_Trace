@@ -34,3 +34,7 @@ window/stretch/mode="canvas_items"
 [dotnet]
 
 project/assembly_name="Trail_Trace"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gut/plugin.cfg")

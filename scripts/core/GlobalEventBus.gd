@@ -1,4 +1,3 @@
-class_name GlobalEventBus
 extends Node
 
 # Autoload: GlobalEventBus
