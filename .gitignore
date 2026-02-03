@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .env
 .env.local
 .env.development
@@ -8,3 +9,21 @@
 /.trae/
 /.DS_Store
 Thumbs.db
+=======
+# Godot 4+ specific ignores
+.godot/
+.nomedia
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
+>>>>>>> 0d5c51399d9fab215c9ef84d90147905da97dd79
