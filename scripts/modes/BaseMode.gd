@@ -5,6 +5,8 @@ extends Node
 signal mode_ready
 signal mode_finished(result: Dictionary)
 
+var config: ModeConfig
+
 # Virtual method called when entering the mode
 func enter() -> void:
 	print("Entering mode: ", name)

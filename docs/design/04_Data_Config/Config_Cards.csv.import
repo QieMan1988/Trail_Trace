@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c7f52nhxowxh7"
+
+[deps]
+
+files=["res://docs/design/04_Data_Config/Config_Cards.type.translation", "res://docs/design/04_Data_Config/Config_Cards.rarity.translation", "res://docs/design/04_Data_Config/Config_Cards.weight.translation", "res://docs/design/04_Data_Config/Config_Cards.weight.translation", "res://docs/design/04_Data_Config/Config_Cards.effect.translation", "res://docs/design/04_Data_Config/Config_Cards.name.translation", "res://docs/design/04_Data_Config/Config_Cards.desc.translation", "res://docs/design/04_Data_Config/Config_Cards.icon.translation"]
+
+source_file="res://docs/design/04_Data_Config/Config_Cards.csv"
+dest_files=["res://docs/design/04_Data_Config/Config_Cards.type.translation", "res://docs/design/04_Data_Config/Config_Cards.rarity.translation", "res://docs/design/04_Data_Config/Config_Cards.weight.translation", "res://docs/design/04_Data_Config/Config_Cards.weight.translation", "res://docs/design/04_Data_Config/Config_Cards.effect.translation", "res://docs/design/04_Data_Config/Config_Cards.name.translation", "res://docs/design/04_Data_Config/Config_Cards.desc.translation", "res://docs/design/04_Data_Config/Config_Cards.icon.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

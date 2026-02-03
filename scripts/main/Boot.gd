@@ -15,6 +15,16 @@ func _ready() -> void:
 	eco_mgr.name = "EconomyManager"
 	add_child(eco_mgr)
 	eco_mgr.initialize()
+
+	var char_mgr = CharacterManager.new()
+	char_mgr.name = "CharacterManager"
+	add_child(char_mgr)
+	char_mgr.initialize()
+	
+	var combat_mgr = CombatManager.new()
+	combat_mgr.name = "CombatManager"
+	add_child(combat_mgr)
+	combat_mgr.initialize()
 	
 	print("Systems Initialized. Loading Main Menu...")
 	call_deferred("_load_menu")
