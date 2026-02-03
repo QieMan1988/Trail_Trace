@@ -1,0 +1,4 @@
+id,type,rarity,weight_casual,weight_survival,effect_value,name_key,desc_key,icon_path
+CARD_SCENERY_001,SCENERY,COMMON,0.15,0.05,50,card_scenery_001_name,card_scenery_001_desc,res://assets/cards/scenery_001.png
+CARD_ENV_RAIN_001,ENVIRONMENT,COMMON,0.20,0.25,-10,card_env_rain_001_name,card_env_rain_001_desc,res://assets/cards/env_rain_001.png
+CARD_RES_WATER_001,RESOURCE,COMMON,0.15,0.30,20,card_res_water_001_name,card_res_water_001_desc,res://assets/cards/res_water_001.png

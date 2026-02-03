@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://main_menu_uid"]
+
+[ext_resource type="Script" path="res://scripts/main/MainMenu.gd" id="1_menu"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Trail Trace - MVP Demo"
+horizontal_alignment = 1
+
+[node name="CasualBtn" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Casual Exploration Mode"
+
+[node name="SurvivalBtn" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Survival Challenge Mode"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/CasualBtn" to="." method="_on_casual_btn_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/SurvivalBtn" to="." method="_on_survival_btn_pressed"]
