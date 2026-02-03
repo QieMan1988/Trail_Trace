@@ -1,3 +1,4 @@
+class_name ServiceRegistry
 extends Node
 
 # Autoload: ServiceRegistry
