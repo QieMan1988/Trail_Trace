@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ModeConfig" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/resources/ModeConfig.gd" id="1_modeconfig"]
+
+[resource]
+script = ExtResource("1_modeconfig")
+mode_id = "survival"
+display_name = "Survival Mode"
+description = "Survive against the odds."
+main_scene_path = "res://scenes/core/GameLevel.tscn"
+enable_permadeath = true
